@@ -15,14 +15,6 @@ ul{
 	color: #000;
 	list-style-position: inside;
 	list-style-type: none;
-
-}
-
-.navbar .navbar-brand{
-	line-height: 6.1rem;
-	font-size: 2rem;
-  	font-style: normal;
- 	font-family: times new roman;
 }
 
 .dropdown:hover .dropdown-menu {
