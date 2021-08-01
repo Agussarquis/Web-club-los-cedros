@@ -223,3 +223,7 @@ h3{
  .spon{
  	background-color: black;
  }
+
+ .modal-footer .btn-secondary{
+ 	background-color: black;
+ }
