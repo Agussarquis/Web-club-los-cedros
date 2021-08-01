@@ -104,46 +104,328 @@ table{
 	grid-area: titu;
 }
 
-
-@media all and (min-width: 768px){
-	.miTitulo{
-	color: #000;
-	font-size: 2rem;
+@media all and (min-width: 320px){
+	.navbar .navbar-brand{
+	line-height: 6.1rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-family: times new roman;
-	width: 50%;
-	padding: 40px 15px 0px 25px;
 	}
-	.contenedor{
-		width: 95px;
+	.navbar-brand img{
+		width: 80px;
+		height: 80px;
 	}
+	button.navbar-toggler{
+		padding: 0.2rem 0.3rem;
+	}
+	li{
+		padding: 5px 90px;
+	}
+	li a{
+		font-size: 18px;
+		text-decoration: none;
+    	color: black;
+	}
+	#header {
+		background-image: url(../imagenes/portada2.jpg);
+		height: 600px;
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.carousel-item{
+		height: 390px;
+	}
+	#footer {
+	  display: grid;
+	  grid-template-areas: "mapa mapa" "logo contac";
+	  grid-template-columns: 3fr 3fr;
+	  grid-template-rows: 1fr 1fr;
+	  height: 400px;
+	  width: 100%;
+	  background: linear-gradient(to bottom, #1d1919, #6a6868);
+	  align-items: center;
+	}
+	.mapa {
+	  grid-area: mapa;
+	  padding: 0px 15px 50px 15px;
+	  width: 100%;
+	}
+	.contacto P {
+	  font-family: times new roman;
+	  font-size: 13px;
+	  color: white;
+	  text-align: center;
+	}
+	.club {
+	  grid-area: logo;
+	  text-align: center;
+	}
+	.club :hover {
+	  transform: scale(1.1);
+	}
+	.club img {
+	  height: 90px;
+	}
+	.direccion p {
+	  font-family: times new roman;
+	  color: white;
+	  font-size: 13px;
+	  text-align: center;
+	}
+	.mensaje p {
+	  font-family: times new roman;
+	  color: transparent;
+	  font-size: 13px;
+	  text-align: center;
+	}
+
+}
+
+@media all and (min-width: 768px){
+	.navbar .navbar-brand{
+	line-height: 6.1rem;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-family: times new roman;
+	}
+	.navbar-brand img{
+		width: 80px;
+		height: 80px;
+	}
+	button.navbar-toggler{
+		padding: 0.2rem 0.3rem;
+	}
+	li{
+		padding: 5px 90px;
+	}
+	li a{
+		font-size: 20px;
+		text-decoration: none;
+    	color: black;
+	}
+	#header {
+		background-image: url(../imagenes/portada2.jpg);
+		height: 667px;
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.carousel-item{
+		height: 390px;
+	}
+	#footer {
+	  display: grid;
+	  grid-template-areas: "mapa mapa" "logo contac";
+	  grid-template-columns: 3fr 3fr;
+	  grid-template-rows: 1fr 1fr;
+	  height: 400px;
+	  width: 100%;
+	  background: linear-gradient(to bottom, #1d1919, #6a6868);
+	  align-items: center;
+	}
+	.mapa {
+	  grid-area: mapa;
+	  padding: 0px 15px 50px 15px;
+	  width: 100%;
+	}
+	.contacto P {
+	  font-family: times new roman;
+	  font-size: 18px;
+	  color: white;
+	  text-align: center;
+	}
+	.club {
+	  grid-area: logo;
+	  text-align: center;
+	}
+	.club :hover {
+	  transform: scale(1.1);
+	}
+	.club img {
+	  height: 90px;
+	}
+	.direccion p {
+	  font-family: times new roman;
+	  color: white;
+	  font-size: 18px;
+	  text-align: center;
+	}
+	.mensaje p {
+	  font-family: times new roman;
+	  color: transparent;
+	  font-size: 13px;
+	  text-align: center;
+	}
+
 }
 
 @media all and (min-width: 992px){
-	.miTitulo{
-	color: #000;
-	font-size: 2rem;
-	font-style: normal;
-	font-family: times new roman;
-	width: 100%;
-	padding: 40px 15px 0px 50px;
+	li{
+		padding: 45px 40px;
 	}
-	.contenedor{
-		width: 280px;
+	li a{
+		font-size: 20px;
+		text-decoration: none;
+    	color: black;
+	}
+	#header {
+		background-image: url(../imagenes/portada2.jpg);
+		height: 667px;
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.carousel-item{
+		height: 390px;
+	}
+	#footer {
+	  display: grid;
+	  grid-template-areas: "mapa mapa" "logo contac";
+	  grid-template-columns: 3fr 3fr;
+	  grid-template-rows: 1fr 1fr;
+	  height: 400px;
+	  width: 100%;
+	  background: linear-gradient(to bottom, #1d1919, #6a6868);
+	  align-items: center;
+	}
+	.mapa {
+	  grid-area: mapa;
+	  padding: 0px 15px 50px 15px;
+	  width: 100%;
+	}
+	.contacto P {
+	  font-family: times new roman;
+	  font-size: 18px;
+	  color: white;
+	  text-align: center;
+	}
+	.club {
+	  grid-area: logo;
+	  text-align: center;
+	}
+	.club :hover {
+	  transform: scale(1.1);
+	}
+	.club img {
+	  height: 90px;
+	}
+	.direccion p {
+	  font-family: times new roman;
+	  color: white;
+	  font-size: 18px;
+	  text-align: center;
+	}
+	.mensaje p {
+	  font-family: times new roman;
+	  color: transparent;
+	  font-size: 13px;
+	  text-align: center;
 	}
 }
 
-@media all and (min-width: 1024px){
-	.miTitulo{
-	color: #000;
-	font-size: 2rem;
-	font-style: normal;
-	font-family: times new roman;
-	width: 100%;
-	padding: 40px 15px 0px 30px;
+@media all and (min-width: 1200px){
+	li{
+		padding: 45px 40px;
 	}
-	.contenedor{
-		width: 335px;
+	li a{
+		font-size: 22px;
+		text-decoration: none;
+		color: black;
+	}
+	#header{
+	    background-image: url(../imagenes/portada2.jpg);
+		height: 100vh;
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.carousel-item{
+		height: 90vh;
+	}
+	#footer {
+	  display: grid;
+	  grid-template-areas: "logo direc contac" "mens mapa contac";
+	  grid-template-columns: 2fr 2fr 2fr;
+	  grid-template-rows: 1fr 1fr;
+	  height: 400px;
+	  width: 100%;
+	  grid-column-gap: 50px;
+	  background: linear-gradient(to bottom, #1d1919, #6a6868);
+	  align-items: center;
+	}
+	.club {
+	  grid-area: logo;
+	  text-align: center;
+	}
+	.club :hover {
+	  transform: scale(1.1);
+	}
+	.club img {
+	  height: 90px;
+	}
+
+	.direccion {
+	  grid-area: direc;
+	  padding: 20px 15px 15px 20px;
+	}
+	.direccion p {
+	  font-family: times new roman;
+	  color: white;
+	  font-size: 20px;
+	  text-align: center;
+	}
+
+	.contacto {
+	  grid-area: contac;
+	  padding: 0px 50px 0px 50px;
+	}
+	.contacto P {
+	  font-family: times new roman;
+	  font-size: 20px;
+	  color: white;
+	  text-align: center;
+	}
+
+	.mensaje {
+	  grid-area: mens;
+	  padding: 15px 15px 115px 15px;
+	}
+	.mensaje p {
+	  font-family: times new roman;
+	  color: white;
+	  font-size: 20px;
+	  text-align: center;
+	}
+
+	.mapa {
+	  grid-area: mapa;
+	  padding: 0px 15px 50px 15px;
+	  width: 100%;
 	}
 }
 
@@ -166,10 +448,6 @@ table{
 	font-family: 'Raleway', sans-serif;
 }
 
-
-.carousel-item{
-	height: 90vh;
-}
 
 .container p{
 	border-top: 1px solid black;

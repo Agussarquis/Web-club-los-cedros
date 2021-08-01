@@ -8,30 +8,6 @@
   width: 40px;
 }
 
-li {
-  display: inline-block;
-  padding: 45px 40px;
-}
-li a {
-  font-size: 22px;
-  text-decoration: none;
-  color: black;
-}
-
-#header {
-  background-image: url(../imagenes/portada2.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .futbol {
   grid-area: fut;
 }
@@ -58,67 +34,6 @@ li a {
 }
 .tenis img {
   width: 60%;
-}
-
-#footer {
-  display: grid;
-  grid-template-areas: "logo direc contac" "mens mapa contac";
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 1fr 1fr;
-  height: 400px;
-  width: 100%;
-  grid-column-gap: 50px;
-  background: linear-gradient(to bottom, #1d1919, #6a6868);
-  align-items: center;
-}
-
-.club {
-  grid-area: logo;
-  text-align: center;
-}
-.club :hover {
-  transform: scale(1.1);
-}
-.club img {
-  height: 90px;
-}
-
-.direccion {
-  grid-area: direc;
-  padding: 20px 15px 15px 20px;
-}
-.direccion p {
-  font-family: times new roman;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-.contacto {
-  grid-area: contac;
-  padding: 0px 50px 0px 50px;
-}
-.contacto P {
-  font-family: times new roman;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-}
-
-.mensaje {
-  grid-area: mens;
-  padding: 15px 15px 115px 15px;
-}
-.mensaje p {
-  font-family: times new roman;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-.mapa {
-  grid-area: mapa;
-  padding: 0px 15px 50px 15px;
 }
 
 .historia {
