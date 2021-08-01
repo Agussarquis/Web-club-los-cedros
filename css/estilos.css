@@ -343,6 +343,16 @@ table{
 }
 
 @media all and (min-width: 1200px){
+	.navbar .navbar-brand{
+	line-height: 6.1rem;
+	font-size: 2rem;
+	font-style: normal;
+	font-family: times new roman;
+	}
+	.navbar-brand img{
+		width: 120px;
+		height: 120px;
+	}
 	li{
 		padding: 45px 40px;
 	}
