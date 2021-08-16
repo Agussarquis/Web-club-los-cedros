@@ -53,7 +53,7 @@ thead{
 	padding: 10px;
 	border: 3px solid #000;
 	margin: 40px 60px;
-
+	background-color: #f2f2ec;
 }
 
 span{
@@ -85,6 +85,7 @@ table{
 	width: 60%;
 	text-align: center;
 	margin: 0 auto;
+	background-color: #f2f2ec;
 }
 
 .tabla table{
@@ -95,9 +96,18 @@ table{
 	grid-area: titu;
 }
 
+.servi{
+	background-color: #f2f2ec;
+}
+
 .servi img{
 	width: 170px;
 	margin: 5px;
+	height: 140px;
+}
+
+.conta{
+	background-color: #f2f2ec;
 }
 
 @media all and (min-width: 320px){
@@ -446,6 +456,7 @@ table{
 	padding: 10px;
 	border: 3px solid #000;
 	margin: 40px 60px;
+	background-color: #f2f2ec;
 }
 
 #servicios h3{
@@ -461,7 +472,7 @@ table{
 	margin-bottom: 80px;
 }
 
-.col img{
+.depo img{
 	height: 120px;
 }
 
@@ -502,6 +513,7 @@ h3{
 
  .ima{
  	width: 200px;
+ 	height: 85px;
  }
 
  .spon{
