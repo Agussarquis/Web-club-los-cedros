@@ -143,7 +143,6 @@ table{
 		justify-content: flex-start;
 		align-items: flex-start;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
 	}
 	.carousel-item{
 		height: 390px;
@@ -227,7 +226,6 @@ table{
 		justify-content: flex-start;
 		align-items: flex-start;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
 	}
 	.carousel-item{
 		height: 390px;
@@ -298,7 +296,6 @@ table{
 		justify-content: flex-start;
 		align-items: flex-start;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
 	}
 	.carousel-item{
 		height: 390px;
