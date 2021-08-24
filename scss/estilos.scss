@@ -46,23 +46,6 @@ li{
 	flex-wrap:wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
-        .miLogo{
-            width: 9%;
-            padding:10px;
-            text-align: $align;
-        }
-        .escudo{
-            width: 120px;
-            text-align: $align;
-        }
-        .miTitulo{
-            color: $colorUno;
-            font-size: 2rem;
-            font-style: normal;
-            font-family: times new roman;
-            width: 100%;
-            padding: 40px 45px 0px 0px;
-        }
 }
 
 .futbol{
@@ -157,10 +140,6 @@ li{
 }
 
 .historia{
-	@include secciones;
-}
-
-.socios{
 	@include secciones;
 }
 

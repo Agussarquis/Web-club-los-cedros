@@ -15,34 +15,6 @@ li a {
   color: #000;
 }
 
-#header {
-  background-image: url(../imagenes/portada2.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-#header .miLogo {
-  width: 9%;
-  padding: 10px;
-  text-align: center;
-}
-#header .escudo {
-  width: 120px;
-  text-align: center;
-}
-#header .miTitulo {
-  color: #000;
-  font-size: 2rem;
-  font-style: normal;
-  font-family: times new roman;
-  width: 100%;
-  padding: 40px 45px 0px 0px;
-}
 
 .futbol {
   grid-area: fut;
@@ -149,20 +121,4 @@ li a {
   margin: 40px 60px;
   background-color: #f2f2ec;
 }
-
-.socios {
-  padding: 20px 20px 0px 20px;
-}
-.socios p {
-  color: #000;
-  font-style: italic;
-  font-size: 1rem;
-  font-family: "Raleway", sans-serif;
-  text-align: justify;
-  line-height: 1.5;
-  letter-spacing: 0.1rem;
-  padding: 10px;
-  border: 3px solid #000;
-  margin: 40px 60px;
-  background-color: #f2f2ec;
 }/*# sourceMappingURL=estilos.css.map */
