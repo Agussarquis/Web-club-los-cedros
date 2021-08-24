@@ -133,8 +133,8 @@ table{
     	color: black;
 	}
 	#header {
-		background-image: url(../imagenes/portada2800.jpg);
-		height: 660px;
+		background-image: url(../imagenes/portada2.jpg);
+		height: 100vh;
 		background-size: cover;
 		background-position: center center;
 		display: flex;
@@ -218,7 +218,7 @@ table{
 	}
 	#header {
 		background-image: url(../imagenes/portada2.jpg);
-		height: 667px;
+		height: 100vh;
 		background-size: cover;
 		background-position: center center;
 		display: flex;
@@ -289,7 +289,7 @@ table{
 	}
 	#header {
 		background-image: url(../imagenes/portada2.jpg);
-		height: 667px;
+		height: 100vh;
 		background-size: cover;
 		background-position: center center;
 		display: flex;
